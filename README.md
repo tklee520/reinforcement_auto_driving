@@ -1,6 +1,6 @@
 # Highway PPO V3 Safety Streamlit Dashboard
 
-这个文件夹给 `V3 safety` 版本加了一个 Streamlit 网页控制台，方便你：
+我们给 `V3 safety` 版本加了一个 Streamlit 网页控制台：
 
 1. 在网页上挑 PPO 训练参数：`timesteps`、`n-steps`、`batch-size`、`learning-rate`、`n-envs` 等。
 2. 在网页上挑 V3 safety 参数：`fast-lane safety multiplier`、`fast-lane minimum TTC`、`fast-lane accel gap multiplier`。
@@ -21,14 +21,14 @@
 
 ## 安装依赖
 
-建议在你的项目环境或虚拟环境里运行：
+在项目环境或虚拟环境里运行：
 
 ```bash
 cd highway_v3_streamlit
 pip install -r requirements.txt
 ```
 
-如果你已经装过 `stable-baselines3`、`highway-env`、`torch`，也可以只补装：
+如果已经装过 `stable-baselines3`、`highway-env`、`torch`，也可以只补装：
 
 ```bash
 pip install streamlit moviepy imageio-ffmpeg
